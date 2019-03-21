@@ -1,5 +1,6 @@
 1. Run the commands sort, wc and uniq on the commands.js file. Explain how they work and what the output was.
-Sort: returns the file sorted alphabetically by line.
+
+***Sort: returns the file sorted alphabetically by line.
 sort commands.js
 
 done(data);
@@ -40,13 +41,11 @@ done(data);
 //write out data
 const fs = require("fs");
 
-
-
-Wc: prints newline, word, and byte counts for a file.
+***Wc: prints newline, word, and byte counts for a file.
 wc commands.js
       41     117    1110 commands.js
 
-Uniq: sorts each line in a file and only returns different lines. 
+***Uniq: sorts each line in a file and only returns different lines. 
 uniq commands.js
 const fs = require("fs");
 
